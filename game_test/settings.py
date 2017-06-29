@@ -17,7 +17,7 @@ class Settings:
         self.ship_limit = 3
         # 子弹设置
         self.bullet_speed_factor = 1
-        self.bullet_width = 10
+        self.bullet_width = 1
         self.bullet_height = 15
         self.bullet_color = 60, 60, 60
         self.bullets_allowed = 5
@@ -27,3 +27,6 @@ class Settings:
         self.fleet_drop_speed = 50
         # fleet_direction为1 表示向右移， -1为向左移
         self.fleet_direction = 1
+
+        # 积分
+        self.alien_points = 50
